@@ -27,6 +27,6 @@ echo "Installing zoom"
 brew install zoom --cask
 
 # make code dir
-mkdir ~/code
+mkdir ~/code && cd code
 
 # change safari to use private mode by default
