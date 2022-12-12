@@ -26,4 +26,7 @@ brew install docker --cask
 echo "Installing zoom"
 brew install zoom --cask
 
+# make code dir
+mkdir code
+
 # change safari to use private mode by default
