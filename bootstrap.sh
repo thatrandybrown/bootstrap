@@ -19,4 +19,11 @@ brew doctor
 echo "Installing docker"
 brew install docker --cask
 
+# once docker is installed, everything should probably be managed by ansible
+# anything added below this line should be migrated to ansible
+
+# install zoom
+echo "Installing zoom"
+brew install zoom --cask
+
 # change safari to use private mode by default
