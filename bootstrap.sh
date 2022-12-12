@@ -2,11 +2,8 @@
 # you should also create or copy over your ssh keys
 
 # before you do anything else, do a system backup
-# download this script and run the following commands from the terminal
 
-# cd Downloads
-# chmod +x bootstrap.sh
-# ./bootstrap.sh
+# to run: /bin/bash -c "$(curl -fsSL https://gist.githubusercontent.com/thatrandybrown/b7f85609be8a7facaa40296cf34db417/raw/9d91a73047720b6ccde599fa3fc5ee757c0980e5/bootstrap.sh)"
 
 echo "Bootstrapping your mac"
 
