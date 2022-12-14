@@ -28,6 +28,7 @@ echo "Installing zoom"
 brew install zoom --cask
 
 # make code dir
+# this needs to be more resilient, script will fail here on second run
 mkdir ~/code && cd code
 
 # change safari to use private mode by default
