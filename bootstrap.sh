@@ -1,5 +1,6 @@
 # this script assumes you have already gone through standard system setup
 # you should also create or copy over your ssh keys
+# ssh keys should have 0600 permissions
 
 # before you do anything else, do a system backup
 
