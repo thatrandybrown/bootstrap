@@ -27,6 +27,10 @@ brew install docker --cask
 echo "Installing zoom"
 brew install zoom --cask
 
+# install vscode
+echo "Installing vscode
+brew install visual-studio-code --cask
+
 # make code dir
 # this needs to be more resilient, script will fail here on second run
 mkdir ~/code && cd code
