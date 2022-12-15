@@ -31,6 +31,12 @@ brew install zoom --cask
 echo "Installing vscode"
 brew install visual-studio-code --cask
 
+# setup git
+# this should eventually be a part of dotfiles and pulled from there instead
+# git config --global user.name "Randy Brown"
+# git config --global user.email thatrandybrown@gmail.com
+# git config --global init.defaultBranch main
+
 # make code dir
 # this needs to be more resilient, script will fail here on second run
 mkdir ~/code && cd code
