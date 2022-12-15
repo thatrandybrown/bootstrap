@@ -28,7 +28,7 @@ echo "Installing zoom"
 brew install zoom --cask
 
 # install vscode
-echo "Installing vscode
+echo "Installing vscode"
 brew install visual-studio-code --cask
 
 # make code dir
