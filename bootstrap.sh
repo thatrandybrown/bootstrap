@@ -33,6 +33,7 @@ brew install visual-studio-code --cask
 
 # install n
 brew install n
+sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
