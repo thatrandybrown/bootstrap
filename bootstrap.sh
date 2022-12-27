@@ -36,6 +36,9 @@ brew install n
 sudo n latest
 sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
+# install mas for managing mac store apps
+brew install mas
+
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
 # git config --global user.name "Randy Brown"
