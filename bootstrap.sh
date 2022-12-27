@@ -46,6 +46,6 @@ brew install mas
 # git config --global init.defaultBranch main
 
 # make code dir
-mkdir -p ~/code && cd code
+mkdir -p ~/code && cd ~/code
 
 # change safari to use private mode by default
