@@ -33,8 +33,8 @@ brew install visual-studio-code --cask
 
 # install n
 brew install n
-sudo n latest
-sudo chown -R 501:20 ~/.npm # fix a legacy bug
+# sudo n latest
+# sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
 # install mas for managing mac store apps
 brew install mas
