@@ -1,4 +1,5 @@
 # this script assumes you have already gone through standard system setup
+# in addition, you'll need to log in to the app store for MAS to work
 # you should also create or copy over your ssh keys
 # ssh keys should have 0600 permissions
 
