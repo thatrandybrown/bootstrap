@@ -45,6 +45,7 @@ brew install mas
 # mas install onenote
 echo "Installing OneNote..."
 mas install 784801555
+echo "You'll still need to log in to get started"
 
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
