@@ -32,12 +32,18 @@ echo "Installing vscode"
 brew install visual-studio-code --cask
 
 # install n
+echo "Installing n for managing node"
 brew install n
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
 # install mas for managing mac store apps
+echo "Installing mas to manage app store apps"
 brew install mas
+
+# mas install onenote
+echo "Installing OneNote..."
+mas install 784801555
 
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
