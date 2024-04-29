@@ -32,6 +32,10 @@ brew install zoom --cask
 echo "Installing vscode"
 brew install visual-studio-code --cask
 
+# install firefox
+echo "Installing firefox"
+brew install firefox --cask
+
 # install n
 echo "Installing n for managing node"
 brew install n
