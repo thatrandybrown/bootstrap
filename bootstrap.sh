@@ -5,7 +5,7 @@
 
 # before you do anything else, do a system backup
 
-# to run: /bin/bash -c "$(curl -fsSL $PATH_TO_RAW/bootstrap.sh)"
+# to run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/thatrandybrown/bootstrap/main/bootstrap.sh)"
 
 echo "Bootstrapping your mac"
 
