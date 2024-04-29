@@ -57,3 +57,6 @@ echo "You'll still need to log in to get started"
 mkdir -p ~/code && cd ~/code
 
 # change safari to use private mode by default
+
+# change where screenshots are saved
+documents write com.apple.screencapture location /Users/randybrown/Screenshots
