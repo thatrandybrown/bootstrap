@@ -59,5 +59,5 @@ mkdir -p ~/code && cd ~/code
 # change safari to use private mode by default
 
 # change where screenshots are saved
-mkdir -p /Users/randybrown/Screenshots
-zsh -c "defaults write com.apple.screencapture location /Users/randybrown/Screenshots"
+mkdir -p ~/Screenshots
+zsh -c "defaults write com.apple.screencapture location ~/Screenshots"
