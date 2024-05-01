@@ -56,6 +56,7 @@ echo "You'll still need to log in to get started"
 # git config --global user.name "Randy Brown"
 # git config --global user.email thatrandybrown@gmail.com
 # git config --global init.defaultBranch main
+# git config --list --show-origin
 
 # make code dir
 mkdir -p ~/Craft && cd ~/Craft
