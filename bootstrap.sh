@@ -58,7 +58,7 @@ echo "You'll still need to log in to get started"
 # git config --global init.defaultBranch main
 
 # make code dir
-mkdir -p ~/code && cd ~/code
+mkdir -p ~/Craft && cd ~/Craft
 
 # change safari to use private mode by default
 
