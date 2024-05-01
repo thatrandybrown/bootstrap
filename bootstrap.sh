@@ -51,6 +51,10 @@ echo "Installing OneNote..."
 mas install 784801555
 echo "You'll still need to log in to get started"
 
+echo "Installing Screens"
+mas install 1663047912
+echo "You'll still need to log in to get started"
+
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
 # git config --global user.name "Randy Brown"
