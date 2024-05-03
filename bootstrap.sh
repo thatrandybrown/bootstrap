@@ -42,6 +42,10 @@ brew install n
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
+# install terraform
+echo "Installing terraform"
+brew install terraform
+
 # install mas for managing mac store apps
 echo "Installing mas to manage app store apps"
 brew install mas
