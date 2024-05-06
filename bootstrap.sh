@@ -46,6 +46,10 @@ brew install n
 echo "Installing terraform"
 brew install terraform
 
+# install aws cli
+echo "installing aws cli"
+brew install awscli
+
 # install mas for managing mac store apps
 echo "Installing mas to manage app store apps"
 brew install mas
