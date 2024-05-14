@@ -54,6 +54,9 @@ brew install awscli
 echo "Installing mas to manage app store apps"
 brew install mas
 
+code --install-extension GitHub.copilot-chat --force
+code --install-extension GitHub.copilot --force
+
 # mas install onenote
 echo "Installing OneNote..."
 mas install 784801555
