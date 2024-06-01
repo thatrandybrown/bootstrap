@@ -24,18 +24,6 @@ brew install docker --cask
 # once docker is installed, everything should probably be managed by ansible
 # anything added below this line should be migrated to ansible
 
-# install zoom
-echo "Installing zoom"
-brew install zoom --cask
-
-# install vscode
-echo "Installing vscode"
-brew install visual-studio-code --cask
-
-# install firefox
-echo "Installing firefox"
-brew install firefox --cask
-
 # install n
 echo "Installing n for managing node"
 brew install n
