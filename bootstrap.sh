@@ -19,7 +19,7 @@ brew doctor
 
 curl $0 > ./Brewfile
 brew bundle
-rm ./Brewfile
+rm ./Brewfile* # remove Brewfile and lock file
 
 # once docker is installed, everything should probably be managed by ansible
 # anything added below this line should be migrated to ansible
