@@ -7,6 +7,7 @@ cask 'docker'
 cask 'visual-studio-code'
 cask 'firefox'
 cask 'discord'
+cask 'obs'
 
 vscode 'GitHub.copilot-chat'
 vscode 'GitHub.copilot'
