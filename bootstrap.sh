@@ -27,9 +27,6 @@ brew install docker --cask
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
-code --install-extension GitHub.copilot-chat --force
-code --install-extension GitHub.copilot --force
-
 # mas install onenote
 echo "Installing OneNote..."
 mas install 784801555
