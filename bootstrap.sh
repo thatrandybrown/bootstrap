@@ -12,12 +12,12 @@ echo "Bootstrapping your mac"
 # install homebrew
 echo "Installing homebrew"
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo '# Set PATH, MANPATH, etc., for Homebrew.' > ~/.zprofile
+echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew doctor
 
-echo "test $1"
+echo "test $0"
 
 # once docker is installed, everything should probably be managed by ansible
 # anything added below this line should be migrated to ansible
