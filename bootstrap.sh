@@ -17,10 +17,6 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew doctor
 
-# install docker
-echo "Installing docker"
-brew install docker --cask
-
 # once docker is installed, everything should probably be managed by ansible
 # anything added below this line should be migrated to ansible
 

@@ -3,6 +3,7 @@ brew 'terraform'
 brew 'awscli'
 brew 'mas'
 
+cask 'docker'
 cask 'visual-studio-code'
 cask 'firefox'
 cask 'discord'
