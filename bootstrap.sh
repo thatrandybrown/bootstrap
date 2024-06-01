@@ -22,14 +22,10 @@ brew bundle
 rm ./Brewfile
 rm ./Brewfile.lock.json
 
-# once docker is installed, everything should probably be managed by ansible
-# anything added below this line should be migrated to ansible
-
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
 mas upgrade
-
 echo "you have the following applications installed, consider adding them to bootstrap"
 mas list
 
@@ -41,7 +37,7 @@ mas list
 # git config --list --show-origin
 
 # make code dir
-mkdir -p ~/Craft && cd ~/Craft
+mkdir -p ~/Craft
 
 # change safari to use private mode by default
 
