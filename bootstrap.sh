@@ -27,15 +27,6 @@ brew install docker --cask
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
-# mas install onenote
-echo "Installing OneNote..."
-mas install 784801555
-echo "You'll still need to log in to get started"
-
-echo "Installing Screens"
-mas install 1663047912
-echo "You'll still need to log in to get started"
-
 mas upgrade
 
 echo "you have the following applications installed, consider adding them to bootstrap"
