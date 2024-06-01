@@ -26,7 +26,7 @@ rm ./Brewfile.lock.json
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
 
 mas upgrade
-echo "you have the following applications installed, consider adding them to bootstrap"
+echo "you have the following applications installed, consider adding them to your brewfile"
 mas list
 
 # setup git
