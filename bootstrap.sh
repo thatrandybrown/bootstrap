@@ -24,23 +24,8 @@ brew install docker --cask
 # once docker is installed, everything should probably be managed by ansible
 # anything added below this line should be migrated to ansible
 
-# install n
-echo "Installing n for managing node"
-brew install n
 # sudo n latest
 # sudo chown -R 501:20 ~/.npm # fix a legacy bug
-
-# install terraform
-echo "Installing terraform"
-brew install terraform
-
-# install aws cli
-echo "installing aws cli"
-brew install awscli
-
-# install mas for managing mac store apps
-echo "Installing mas to manage app store apps"
-brew install mas
 
 code --install-extension GitHub.copilot-chat --force
 code --install-extension GitHub.copilot --force
