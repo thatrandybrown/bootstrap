@@ -2,6 +2,7 @@ brew 'n'
 brew 'terraform'
 brew 'awscli'
 brew 'mas'
+brew 'rustup-init'
 
 cask 'docker'
 cask 'visual-studio-code'

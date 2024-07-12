@@ -12,6 +12,8 @@ echo "Bootstrapping your mac"
 # install homebrew
 echo "Installing homebrew"
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# manage this more idempotently
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -28,6 +30,9 @@ rm ./Brewfile.lock.json
 mas upgrade
 echo "you have the following applications installed, consider adding them to your brewfile"
 mas list
+
+# setup rust
+rustup-init -y
 
 # setup git
 # this should eventually be a part of dotfiles and pulled from there instead
