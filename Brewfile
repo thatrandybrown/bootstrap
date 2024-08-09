@@ -15,3 +15,4 @@ vscode 'GitHub.copilot'
 
 mas 'OneNote', id: 784801555
 mas 'Screens', id: 1663047912
+mas 'Xcode', id: 497799835
