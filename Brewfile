@@ -14,8 +14,11 @@ cask 'obs'
 cask 'google-chrome'
 cask 'rar'
 
-vscode 'GitHub.copilot-chat'
-vscode 'GitHub.copilot'
+vscode "eamodio.gitlens"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "ms-vsliveshare.vsliveshare"
+vscode "tabnine.tabnine-vscode"
 
 mas 'OneNote', id: 784801555
 mas 'Screens', id: 1663047912
