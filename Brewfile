@@ -5,6 +5,7 @@ brew 'mas'
 brew 'rustup'
 brew 'yq'
 brew 'ollama'
+brew 'prettier'
 
 cask 'docker'
 cask 'visual-studio-code'
