@@ -1,4 +1,6 @@
 brew 'awscli'
+brew 'oven-sh/bun/bun'
+brew 'cmake'
 brew 'cocoapods'
 brew 'copier'
 brew 'ios-deploy'
