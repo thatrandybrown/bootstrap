@@ -27,7 +27,6 @@ vscode 'eamodio.gitlens'
 vscode 'github.copilot-chat'
 vscode 'ms-vsliveshare.vsliveshare'
 vscode 'sourcegraph.sourcgraph'
-vscode 'tabnine.tabnine-vscode'
 
 mas 'Canva', id: 897446215
 mas 'GarageBand', id: 682658836
