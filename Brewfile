@@ -28,6 +28,7 @@ cask 'claude'
 cask 'claude-code'
 cask 'warp'
 cask 'ghostty'
+cask 'slack'
 
 vscode 'eamodio.gitlens'
 vscode 'github.copilot-chat'
