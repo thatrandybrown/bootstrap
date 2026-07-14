@@ -28,6 +28,8 @@ cask 'claude'
 cask 'claude-code'
 cask 'warp'
 cask 'ghostty'
+cask 'obsidian'
+cask 'logseq'
 cask 'slack'
 
 vscode 'eamodio.gitlens'
