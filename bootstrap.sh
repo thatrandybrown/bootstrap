@@ -19,7 +19,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew doctor
 
-curl $0 > ./Brewfile
+curl -fsSL $0 > ./Brewfile
 brew bundle
 rm ./Brewfile
 rm ./Brewfile.lock.json
